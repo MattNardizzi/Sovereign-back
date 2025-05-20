@@ -1,0 +1,23 @@
+# Ignore unnecessary files to reduce Docker image size
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.sqlite3
+*.ipynb
+*.csv
+*.parquet
+.mlruns/
+wandb/
+qdrant/
+data/
+cache/
+.DS_Store
+.env
+.git
+.gitignore
+node_modules/
+docker-compose*
